@@ -6,3 +6,20 @@
    <h2> URN:6710567 </h2>
     <img src="WebBanner2023.png" alt="Banner" width=“1200” height="300">
    </body>
+  <p id="date&time"></p>
+<script>
+//Javascript to display the date and time on my webpage
+const d = new Date();
+document.getElementById("date&time").innerHTML = d;
+</script>
+
+  <!DOCTYPE html>
+<html>
+<head>
+ <title>Change Button Colour</title>
+</head>
+<body>
+ <button id="colorButton">Click me to change colour</button>
+ <script>
+ // Get a reference to the button element
+ var button = document.getElementById("colorButton")
